@@ -1,0 +1,83 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: center;
+    font-weight: 500;
+}
+
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+input[type=text]{
+    height: 25px;
+    width: 25%;
+    padding: 2px;
+    padding-inline: 10px;
+    border-radius: 15px;
+    border: solid 2px darkgrey;
+    background-color:blanchedalmond;
+    font-weight: 500;
+}
+
+form button{
+    font-size: 16px;
+    padding: 5px 10px;
+    width: fit-content;
+    border: solid 2px darkgrey;
+    border-radius: 10px;
+}
+
+form button:hover{
+    transition-duration: 500ms;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: blueviolet;
+}
+
+footer a::before{
+    content: "";
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: -6px;
+    width: 24px;
+    height: 24px;
+    background-image: url("assets/github-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer{
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35%;
+}
+
+small{
+    margin-top: 4px;
+}
