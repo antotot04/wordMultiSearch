@@ -23,9 +23,26 @@ form{
     gap: 0.5em;
 }
 
-input[type=text]{
-    height: 25px;
+.form-error{
+    position: absolute;
+    bottom: -25px;
+    left: 15px;
+    margin: 0;
+    color: red;
+    font-size: 15px;
+}
+
+form div{
+    position: relative;
+    height: calc(25px + 4px + 4px);
     width: 25%;
+}
+
+input[type=text]{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 25px;
     padding: 2px;
     padding-inline: 10px;
     border-radius: 15px;

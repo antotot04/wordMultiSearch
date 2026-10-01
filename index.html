@@ -13,7 +13,10 @@
             <p>allows you to search for different resources about a word you want to learn</p>
             <form>
                 <label for="search-word">Insert your word here: </label>
-                <input type="text" id="search-word" name="word">
+                <div>
+                    <input type="text" id="search-word" name="word">
+                    <p hidden class="form-error">Word cannot be empty</p>
+                </div>
                 <button type="submit">Search</button>
             </form>
         </main>
